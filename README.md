@@ -57,6 +57,7 @@ A powerful browser extension for automatic form filling with support for multipl
 
 ## 项目架构图
 
+```mermaid
 graph LR
 A[Popup Page PopupApp.tsx] -- sends data source --> B(Background Script background.ts)
 B -- fetches data --> C{Data Fetcher}
@@ -79,6 +80,7 @@ G[Options Page OptionsApp.tsx] -- saves settings --> B
     style C fill:#eee,stroke:#333,stroke-width:2px
     style D fill:#eee,stroke:#333,stroke-width:2px
     style F fill:#eee,stroke:#333,stroke-width:2px
+```
 
 ## Setup Instructions
 
